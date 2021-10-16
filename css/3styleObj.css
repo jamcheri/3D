@@ -1,0 +1,12 @@
+/*remove margin*/
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+/*make the canvas fill the page, remove any potential canvas whitespace by making display block instead of defaul inline*/
+#c {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
